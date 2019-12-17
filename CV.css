@@ -1,0 +1,43 @@
+h2
+{
+	font-weight: bold;
+	border-left: 3px blue dashed;
+	border-right: 3px red dashed;
+	margin-right: 15px;
+}
+
+h1
+{
+	border: 3px blue dotted;
+	border-radius: 15px;
+	text-shadow: 6px 6px 4px green;
+}
+
+body
+{
+	background-image: url("./francais.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.expérience
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.expérience img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.expérience p
+{
+	text-align: left;
+}
+
+p
+{
+	color: green;
+}
